@@ -103,7 +103,8 @@ DevOps Engineer and Software Developer with experience in designing, automating,
 
 ## Master of Computer Applications (MCA)
 Savitribai Phule Pune University, Pune  
-2024 (Result Awaiting)
+2024
+CGPA 5.88
 
 ## Bachelor of Computer Applications (BCA)
 Indira College of Commerce and Science, Pune  
