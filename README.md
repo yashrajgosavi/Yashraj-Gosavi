@@ -7,6 +7,8 @@
 
 Talegaon, Pune, Maharashtra
 
+📄 **[Download the resume (PDF)](Yashraj_Gosavi_Resume.pdf)**
+
 ---
 
 # PROFESSIONAL SUMMARY
