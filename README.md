@@ -2,7 +2,7 @@
 
 [📞 +91-8080067806](tel:+918080067806)  
 [📧 yashrajgosavi2580@gmail.com](mailto:yashrajgosavi2580@gmail.com)  
-[🔗 linkedin.com/in/yashraj-gosavi](https://www.linkedin.com/in/yashraj-gosavi)  
+[🔗 linkedin.com/in/yashrajgosavi](https://www.linkedin.com/in/yashrajgosavi/)  
 [💻 github.com/yashrajgosavi](https://github.com/yashrajgosavi)
 
 Talegaon, Pune, Maharashtra
@@ -11,7 +11,7 @@ Talegaon, Pune, Maharashtra
 
 # PROFESSIONAL SUMMARY
 
-DevOps Engineer and Software Developer with experience in designing, automating, and optimizing cloud infrastructure across AWS and Azure. Skilled in CI/CD pipeline development, Kubernetes orchestration, Infrastructure as Code, and containerized deployments using Terraform, Azure Bicep, Docker, Helm Charts, and Kubernetes. Experienced in managing scalable multi-environment systems, reducing cloud infrastructure costs, and improving deployment efficiency through automation. Proficient in Java, JavaScript, Python, PHP, React Native, Express.js, and cloud-native technologies.
+DevOps Engineer with 2.5+ years of experience designing, automating, and operating cloud infrastructure across AWS and Azure, currently working in Site Reliability Engineering. Skilled in CI/CD pipeline development, Kubernetes orchestration, Infrastructure as Code, and containerized deployments using Terraform, Azure Bicep, Docker, Helm Charts, and Kubernetes. Experienced in production monitoring and incident response, managing multi-environment systems, reducing cloud infrastructure costs, and improving deployment efficiency through automation with Python and Bash.
 
 ---
 
@@ -23,6 +23,7 @@ DevOps Engineer and Software Developer with experience in designing, automating,
 - Containerization & Orchestration (Docker, Kubernetes, Helm Charts)
 - Kubernetes Management (kubectl, Helm, Cluster Maintenance)
 - Monitoring & Deployment Strategies
+- Incident Response & Runbook-Driven Operations
 - Multi-Environment Management (Dev, Test, Staging, Production)
 - Cost Optimization & Resource Management
 - Backend Development & APIs
@@ -36,8 +37,10 @@ DevOps Engineer and Software Developer with experience in designing, automating,
 |---|---|
 | **Cloud Platforms** | AWS, Azure |
 | **DevOps & Infrastructure Tools** | Terraform, Azure Bicep, Azure CLI, GitHub Actions, Azure DevOps Pipelines, ArgoCD, Helm Charts, kubectl, Docker, Kubernetes |
-| **Programming Languages** | Java, JavaScript, Python, PHP, Shell Scripting |
+| **Programming Languages** | Python, Bash Scripting, Shell Scripting, Java, JavaScript, PHP |
 | **Frameworks & Technologies** | React, React Native, Expo CLI, Express.js |
+| **Monitoring & Observability** | New Relic, Prometheus, Grafana, Loki |
+| **Integration** | Orderful (EDI) |
 | **Operating Systems** | Windows, Linux |
 | **Concepts** | CI/CD, Infrastructure as Code (IaC), Cloud Computing, OOP, SOLID Principles, Containerization, Automation |
 
@@ -45,57 +48,50 @@ DevOps Engineer and Software Developer with experience in designing, automating,
 
 # PROFESSIONAL EXPERIENCE
 
-## AutomationHQ Inc.
+## Bridgenext India Pvt. Ltd.
 
-### Lead DevOps Engineer | Mar 2025 – Present
+### Analyst SRE | Sep 2026 – Present
 
-- Architected and managed scalable cloud infrastructure across AWS and Azure using Terraform and Azure Bicep.
-- Designed and implemented end-to-end CI/CD pipelines supporting automated deployments across multiple environments (main → dev → staging → production).
-- Reduced AWS cloud costs by 60% through resource optimization, right-sizing, and monitoring strategies.
-- Reduced Azure infrastructure costs by 75% by redesigning architecture and eliminating unused resources.
-- Deployed and managed Kubernetes clusters ensuring scalability, high availability, and fault tolerance.
-- Managed Helm Charts, Kubernetes deployments, and cluster configurations using kubectl.
-- Automated infrastructure provisioning and deployment workflows using GitHub Actions and Azure DevOps Pipelines.
-- Standardized multi-environment configurations improving deployment consistency and reducing failures.
-- Led on-premise deployment solutions for enterprise clients ensuring seamless integration and delivery.
-- Improved deployment reliability and reduced manual intervention through automation.
+- Monitor production alerts in New Relic and triage each one to identify the underlying cause.
+- Remediate issues following runbooks by restarting services, evicting pods, and scaling workloads up or down to restore service quickly.
+- Escalate issues beyond runbook scope to the owning engineering teams with a clear record of the diagnostics and remediation steps already performed.
+- Manage high-priority incidents (HPIs), posting timely and structured status updates throughout the incident lifecycle.
+- Track and troubleshoot EDI transaction flows on Orderful for business-critical client integrations.
+- Perform dedicated checks on high-priority client environments, including a one-hour sanity check each shift to catch issues before customers are affected.
+- Build observability dashboards in New Relic using Terraform (dashboards as code) and the New Relic UI.
+
+## AutomationHQ | Mar 2024 – Sep 2026
+
+### Lead DevOps Engineer | Mar 2025 – Sep 2026
+
+- Architected and managed AWS and Azure infrastructure using Terraform and Azure Bicep, with Bash scripts automating routine tasks, log analysis, and deployment health checks.
+- Designed end-to-end CI/CD pipelines in GitHub Actions and Azure DevOps Pipelines promoting releases across environments (dev → staging → production), and standardized environment configurations to reduce deployment failures.
+- Reduced AWS cloud costs by **up to 60%** (**from \$300–400 to about \$150 per month**) through rightsizing, resource optimization, and monitoring.
+- Reduced Azure infrastructure costs by **75%** (**from about \$400 to under \$100 per month**) by redesigning the architecture and eliminating unused resources.
+- Operated a 4-node Amazon EKS cluster split across 2 Availability Zones, exposing only the gateway service (deployed in both zones) while all other services stayed internal; Helm charts defined Horizontal Pod Autoscalers, Pod Disruption Budgets, and health probes tracked by ArgoCD.
+- Restructured the legacy AWS Terraform configuration (VPC, subnets, 4-node EKS cluster) into a clean module layout and brought manually created resources under Terraform management.
+- Implemented GitOps deployments with ArgoCD, connected to the Helm chart repository, to deploy the microservices to EKS.
 
 ### Software Developer & DevOps Intern | Mar 2024 – Mar 2025
 
-- Assisted in building and maintaining CI/CD pipelines using GitHub Actions and ArgoCD.
-- Worked with Terraform, Azure Bicep, and Azure CLI for infrastructure provisioning and automation.
-- Deployed and managed containerized applications using Docker and Kubernetes.
-- Maintained Kubernetes clusters, Helm Charts, and deployment configurations.
-- Collaborated on monitoring, troubleshooting, and optimizing cloud-based systems.
-- Developed and maintained deployment automation workflows.
+- Built an Azure Bicep infrastructure repository for Java microservices on Azure Container Apps, with Cosmos DB, secrets storage, a Selenium Grid container app, Blob Storage for the frontend and file sharing, and ACR for Docker images.
+- Added GitHub Actions workflows for on-demand deployment and teardown, replacing manual Bash and PowerShell provisioning with a one-click deployment.
+- Delivered a custom deployment for an enterprise client in a private, VPN-only Azure environment: Bicep templates run through GitHub Actions and PowerShell, provisioning Java microservices on Azure Container Apps with ACR and Cosmos DB.
+- Troubleshot and optimized cloud systems, and wrote Bash scripts to automate repetitive tasks.
 
 ---
 
 # PROJECTS
 
-## bicepBrew | Azure Bicep, GitHub Actions
+## [bicepBrew](https://github.com/yashrajgosavi/bicepBrew) | Azure Bicep, GitHub Actions
 
-- Developed a hands-on learning platform for Azure Bicep with integrated CI/CD pipelines.
-- Automated deployment workflows to demonstrate Infrastructure as Code best practices.
-- Implemented GitHub Actions workflows for automated infrastructure deployments.
+- Built a hands-on learning resource that helps interns master Azure Bicep by pairing theory with practical templates.
+- Implemented GitHub Actions workflows that deploy the templates automatically, demonstrating IaC best practices.
 
-## Cal-Get | React Native, Expo CLI
+## Cal-Get | React Native, Expo CLI, Express.js, JWT
 
-- Built cross-platform Web, Android, and iOS applications from scratch.
-- Added custom themes, reusable text components, and spacer components.
-- Developed authentication screens and optimized navigation and user experience.
-
-## Cal-Get Backend | Express.js, JWT
-
-- Designed and implemented secure REST APIs using JWT authentication and bcrypt hashing.
-- Created signup and sign-in routes from scratch.
-- Ensured secure user authentication and session management.
-
-## Movie Recommendation Website | HTML, PHP, CSS, SQL
-
-- Developed frontend, backend, and database architecture from scratch.
-- Used OOP concepts in PHP for backend development.
-- Implemented movie recommendation and data management features.
+- Built a cross-platform Web, Android, and iOS app from scratch with custom themes, reusable components, and authentication screens.
+- Designed secure REST APIs in Express.js for signup, sign-in, and session management using JWT authentication and bcrypt hashing.
 
 ---
 
@@ -104,29 +100,9 @@ DevOps Engineer and Software Developer with experience in designing, automating,
 ## Master of Computer Applications (MCA)
 Savitribai Phule Pune University, Pune  
 2024  
-CGPA 5.88
+Finalist, IT Division Coding Contest at Kakushin, Nomura Services Pvt. Ltd. (July 2023)
 
 ## Bachelor of Computer Applications (BCA)
 Indira College of Commerce and Science, Pune  
 2022  
 CGPA: 7.85 | Percentage: 73.55%
-
-## Higher Secondary Education (12th)
-Kasturba Gandhi College, Ahmedpur, Latur  
-2019  
-Percentage: 59.38%
-
-## Secondary Education (10th)
-Podar International School, Solapur  
-2017  
-CGPA: 8.6 | Percentage: 77.2%
-
----
-
-# KEY ACHIEVEMENTS
-
-- Achieved 60–75% reduction in cloud infrastructure costs across AWS and Azure.
-- Built and deployed production-grade CI/CD pipelines for full-stack applications.
-- Successfully managed multi-cloud, multi-environment infrastructure at scale.
-- Improved deployment efficiency and reduced manual errors through automation.
-- Finalist in IT Division Coding Contest at “Kakushin” conducted by Nomura Services Pvt. Ltd. on 12 July 2023.
